@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-starter",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "buildall": "yarn workspaces run build",
+    "test": "yarn workspaces run test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1"
+  },
+  "author": "Tariel Davidashvili <hello@tariel.me> (http://tariel.me/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamlite/monorepo-starter.git"
+  },
+  "packageManager": "yarn@4.3.1"
+}
